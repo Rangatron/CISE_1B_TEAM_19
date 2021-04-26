@@ -4,9 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "app": "nodemon app.js",
-    "test": "echo \"error: no test specified\" && exit 1"
+    "test": "echo \"error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "app": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
     "express": "^4.17.1",
     "heroku": "^7.52.0",
     "nodemon": "^2.0.7",
+    "pg": "^8.6.0",
     "validation": "0.0.1"
   }
 }
