@@ -4,7 +4,6 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "heroku-postbuild": "cd cise_lab5 && npm install && npm run build",
     "app": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
