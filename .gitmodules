@@ -1,3 +1,6 @@
 [submodule "react"]
 	path = react
 	url = https://github.com/Rangatron/cise_lab5
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/Rangatron/cise_lab5
