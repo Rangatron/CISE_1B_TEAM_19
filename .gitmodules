@@ -1,5 +1,5 @@
 [submodule "cise_lab5"]
-	path = frontend
+	path = cise_lab5
 	url = https://github.com/Rangatron/cise_lab5
 [submodule "frontend"]
 	path = frontend
