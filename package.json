@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "concurrently \"node app.js\" \"cd .\\cise_lab5\\ && npm start\"",
     "heroku-postbuild": "cd cise_lab5 && npm install && npm run build",
     "app": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,6 +22,7 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
+    "concurrently": "^6.0.2",
     "config": "^3.3.6",
     "cors": "^2.8.5",
     "express": "^4.17.1",
