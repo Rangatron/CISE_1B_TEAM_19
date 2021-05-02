@@ -1,1 +1,1 @@
-web: .\CISE_1B web: node app.js
+web: .\ node app.js
