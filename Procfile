@@ -1,1 +1,1 @@
-web: npm run app
+web: .\CISE_1B web: node app.js
